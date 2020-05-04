@@ -23,7 +23,7 @@ app.post("/repositories", (request, response) => {
     url,
     title,
     techs: techs,
-    like: 0
+    likes: 0
   }
   repositories.push(repository)
   
